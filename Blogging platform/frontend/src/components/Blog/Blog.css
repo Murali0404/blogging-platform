@@ -1,0 +1,33 @@
+/* src/components/Blog/Blog.css */
+.blog-list {
+    padding: 20px;
+  }
+  
+  .blog-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .blog-list li {
+    display: flex;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 80%; /* Increase the width of the list item */
+    margin: 0 auto; /* Center the list item */
+  }
+  
+  .blog-list img {
+    width: 150px; /* Set a fixed width for the image */
+    height: 100px; /* Set a fixed height for the image */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    margin-right: 20px; /* Add some space between the image and the text */
+  }
+  
+  .blog-list .blog-content {
+    flex: 1; /* Allow the text content to take up the remaining space */
+  }
